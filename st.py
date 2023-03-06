@@ -32,11 +32,11 @@ ap_hi = lc.selectbox('Систолическое давление: ', (80, 90, 1
 
 ap_lo = rc.selectbox('Диастолическое давление: ', (40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150), key = 'ap_lo')
 
-st.write('возраст {}'.format(age, height, ))
-st.write('рост {}'.format(height))
-st.write('вес {}'.format(weight))
-st.write('Сист давл {}'.format(ap_hi))
-st.write('Диаст давл {}'.format(ap_lo))
+#st.write('возраст {}'.format(age))
+#st.write('рост {}'.format(height))
+#st.write('вес {}'.format(weight))
+#st.write('Сист давл {}'.format(ap_hi))
+#st.write('Диаст давл {}'.format(ap_lo))
 
 st.write('### Предсказание: ')
 
